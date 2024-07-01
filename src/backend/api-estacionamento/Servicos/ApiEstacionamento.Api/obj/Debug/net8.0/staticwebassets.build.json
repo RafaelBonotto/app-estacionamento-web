@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eXmG2NAhDzghga6ki7tGh2zgCdiZo9C554CEahzNCGI=",
+  "Source": "ApiEstacionamento.Api",
+  "BasePath": "_content/ApiEstacionamento.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

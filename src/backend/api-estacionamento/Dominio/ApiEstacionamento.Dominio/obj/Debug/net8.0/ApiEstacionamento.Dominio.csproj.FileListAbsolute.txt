@@ -1,0 +1,12 @@
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\bin\Debug\net8.0\ApiEstacionamento.Dominio.deps.json
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\bin\Debug\net8.0\ApiEstacionamento.Dominio.dll
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\bin\Debug\net8.0\ApiEstacionamento.Dominio.pdb
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.AssemblyInfoInputs.cache
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.AssemblyInfo.cs
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.sourcelink.json
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.dll
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\refint\ApiEstacionamento.Dominio.dll
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ApiEstacionamento.Dominio.pdb
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Dominio\ApiEstacionamento.Dominio\obj\Debug\net8.0\ref\ApiEstacionamento.Dominio.dll
