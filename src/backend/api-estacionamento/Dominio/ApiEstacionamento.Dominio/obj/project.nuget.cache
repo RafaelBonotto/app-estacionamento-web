@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0LpyRoIeRDZQRTcXdAZD/h9RW+SzCARa4G/2/pbHH+wu/a9dfZ/x/OhVbPcxWglxJ3POPPQNQncMQfbMugILOw==",
+  "dgSpecHash": "gShT0YjEaDvZ3ZPOJeMjbD83uXgvoX6I7X7tSelDddbW0MsEcSKUqvVlmHNHaMu/Aj7hzG6VvCpVC0kfsvEDRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Dominio\\ApiEstacionamento.Dominio\\ApiEstacionamento.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rbonotto\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\rbonotto\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
   "logs": []
 }

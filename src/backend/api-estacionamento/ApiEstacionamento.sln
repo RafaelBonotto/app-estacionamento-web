@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Infra", "4- Infra", "{9A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Testes", "5- Testes", "{0F42025F-E200-423D-BE69-B743B5BDE103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEstacionamento.Api", "Servicos\ApiEstacionamento.Api\ApiEstacionamento.Api.csproj", "{43D6DD41-7080-4F2B-AA91-A4109873EEDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstacionamento.Api", "Servicos\ApiEstacionamento.Api\ApiEstacionamento.Api.csproj", "{43D6DD41-7080-4F2B-AA91-A4109873EEDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEstacionamento.Aplicacao", "Aplicacao\ApiEstacionamento.Aplicacao\ApiEstacionamento.Aplicacao.csproj", "{240772BA-58A6-40C9-8824-541FB724AB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstacionamento.Aplicacao", "Aplicacao\ApiEstacionamento.Aplicacao\ApiEstacionamento.Aplicacao.csproj", "{240772BA-58A6-40C9-8824-541FB724AB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEstacionamento.Dominio", "Dominio\ApiEstacionamento.Dominio\ApiEstacionamento.Dominio.csproj", "{48146B24-76EF-45BF-8CC3-816FE59346AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstacionamento.Dominio", "Dominio\ApiEstacionamento.Dominio\ApiEstacionamento.Dominio.csproj", "{48146B24-76EF-45BF-8CC3-816FE59346AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEstacionamento.Infra", "Infra\ApiEstacionamento.Infra\ApiEstacionamento.Infra.csproj", "{B243233C-9467-487E-9A05-601AEE262F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstacionamento.Infra", "Infra\ApiEstacionamento.Infra\ApiEstacionamento.Infra.csproj", "{B243233C-9467-487E-9A05-601AEE262F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEstacionamento.Testes", "Testes\ApiEstacionamento.Testes\ApiEstacionamento.Testes.csproj", "{A8F99F67-6710-4E05-8639-696AD8EDF83D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEstacionamento.Testes", "Testes\ApiEstacionamento.Testes\ApiEstacionamento.Testes.csproj", "{A8F99F67-6710-4E05-8639-696AD8EDF83D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

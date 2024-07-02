@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Conexao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dominio\ApiEstacionamento.Dominio\ApiEstacionamento.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

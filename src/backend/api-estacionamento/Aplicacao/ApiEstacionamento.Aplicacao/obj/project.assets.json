@@ -1,11 +1,115 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Dapper.Contrib/2.0.78": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "2.0.78"
+        },
+        "compile": {
+          "lib/net5.0/Dapper.Contrib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.Contrib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ApiEstacionamento.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper.Contrib": "2.0.78"
+        },
+        "compile": {
+          "bin/placeholder/ApiEstacionamento.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiEstacionamento.Dominio.dll": {}
+        }
+      },
+      "ApiEstacionamento.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ApiEstacionamento.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiEstacionamento.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiEstacionamento.Infra.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.0.78": {
+      "sha512": "vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "type": "package",
+      "path": "dapper/2.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.2.0.78.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Dapper.Contrib/2.0.78": {
+      "sha512": "sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
+      "type": "package",
+      "path": "dapper.contrib/2.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.contrib.2.0.78.nupkg.sha512",
+        "dapper.contrib.nuspec",
+        "lib/net461/Dapper.Contrib.dll",
+        "lib/net461/Dapper.Contrib.xml",
+        "lib/net5.0/Dapper.Contrib.dll",
+        "lib/net5.0/Dapper.Contrib.xml",
+        "lib/netstandard2.0/Dapper.Contrib.dll",
+        "lib/netstandard2.0/Dapper.Contrib.xml"
+      ]
+    },
+    "ApiEstacionamento.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../../Dominio/ApiEstacionamento.Dominio/ApiEstacionamento.Dominio.csproj",
+      "msbuildProject": "../../Dominio/ApiEstacionamento.Dominio/ApiEstacionamento.Dominio.csproj"
+    },
+    "ApiEstacionamento.Infra/1.0.0": {
+      "type": "project",
+      "path": "../../Infra/ApiEstacionamento.Infra/ApiEstacionamento.Infra.csproj",
+      "msbuildProject": "../../Infra/ApiEstacionamento.Infra/ApiEstacionamento.Infra.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ApiEstacionamento.Dominio >= 1.0.0",
+      "ApiEstacionamento.Infra >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rbonotto\\.nuget\\packages\\": {}
@@ -33,7 +137,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Dominio\\ApiEstacionamento.Dominio\\ApiEstacionamento.Dominio.csproj": {
+              "projectPath": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Dominio\\ApiEstacionamento.Dominio\\ApiEstacionamento.Dominio.csproj"
+            },
+            "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Infra\\ApiEstacionamento.Infra\\ApiEstacionamento.Infra.csproj": {
+              "projectPath": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Infra\\ApiEstacionamento.Infra\\ApiEstacionamento.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
