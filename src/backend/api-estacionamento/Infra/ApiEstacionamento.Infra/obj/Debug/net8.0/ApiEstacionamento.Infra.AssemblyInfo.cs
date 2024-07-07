@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEstacionamento.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b4442aa032476e94cbd6165118405ab0969d754")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd2b64d4dd5edab82971d7f01427efb5a4366ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEstacionamento.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEstacionamento.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,17 @@
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Aplicacao.deps.json
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Aplicacao.dll
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Aplicacao.pdb
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Dominio.dll
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Infra.dll
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Dominio.pdb
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\bin\Debug\net8.0\ApiEstacionamento.Infra.pdb
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.csproj.AssemblyReference.cache
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.AssemblyInfoInputs.cache
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.AssemblyInfo.cs
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.sourcelink.json
+C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstac.00B5C9F0.Up2Date
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.dll
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\refint\ApiEstacionamento.Aplicacao.dll
 C:\Users\rbonotto\Pessoal\Projetos\Git\app-estacionamento-web\src\backend\api-estacionamento\Aplicacao\ApiEstacionamento.Aplicacao\obj\Debug\net8.0\ApiEstacionamento.Aplicacao.pdb

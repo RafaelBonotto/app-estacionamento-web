@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiEstacionamento.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ClienteController.PostAsync">
+            <summary>
+            Realizar cadastro de cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ClienteController.PutAsync">
+            <summary>
+            Realizar atuialização de dados do cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ClienteController.DeleteAsync">
+            <summary>
+            Realizar exclusão de cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ClienteController.GetAsync">
+            <summary>
+            Obter listagem de clientes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ClienteController.GetIdAsync">
+            <summary>
+            Obter cliente por id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ColaboradorController.PostAsync">
+            <summary>
+            Realizar cadstro do colaborador
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ColaboradorController.PutAsync">
+            <summary>
+            Realizar atualização de dados do colaborador
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ColaboradorController.DeleteAsync">
+            <summary>
+            Realizar exclusão de colaborador
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ColaboradorController.GetAsync">
+            <summary>
+            Obter listagem de colaboradores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ColaboradorController.GetIdAsync">
+            <summary>
+            Obter colaborador por id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.MovimentoController.RegistraEntradaAsync">
+            <summary>
+            Realizar registro de entrada de veículo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.MovimentoController.RegistraSaidaAsync">
+            <summary>
+            Realizar registro de saída de veículo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.RelatorioController.RelatorioDiarioAsync">
+            <summary>
+            Gerar relatório diário de movimento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.RelatorioController.RelatorioSemanalAsync">
+            <summary>
+            Gerar relatório semanal de movimento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.RelatorioController.RelatorioMensalAsync">
+            <summary>
+            Gerar relatório mensal de movimento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.RelatorioController.RelatorioAnualAsync">
+            <summary>
+            Gerar relatório anual de movimento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.UsuarioController.PostAsync(ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM)">
+            <summary>
+            Realizar cadastro de usuário
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.UsuarioController.LoginAsync(ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM)">
+            <summary>
+            Realizar login de usuário
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.UsuarioController.ValidateAsync(ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM)">
+            <summary>
+            Realizar recuperação de senha do usuário
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.ValorController.ValorPrimeiraHoraAsync">
+            <summary>
+            Obter listagem de valores por hora, diaria e mensalidade
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.VeiculoController.PostAsync">
+            <summary>
+            Realizar cadastro de veículo do cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.VeiculoController.PutAsync">
+            <summary>
+            Realizar atualização de dados de veículo do cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.VeiculoController.DeleteAsync">
+            <summary>
+            Realizar exclusão de veículo do cliente
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.VeiculoController.GetAsync">
+            <summary>
+            Obter listagem de veículos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiEstacionamento.Api.Controllers.V1.VeiculoController.GetIdAsync">
+            <summary>
+            Obter veículo por id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM">
+            <summary>
+            Classe responsável pelas credenciais do usuário
+            </summary>
+        </member>
+        <member name="P:ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM.Email">
+            <summary>
+            Email do usuário
+            </summary>
+        </member>
+        <member name="P:ApiEstacionamento.Api.ViewModel.Usuario.UsuarioInVM.Password">
+            <summary>
+            Password do usuário
+            </summary>
+        </member>
+    </members>
+</doc>
