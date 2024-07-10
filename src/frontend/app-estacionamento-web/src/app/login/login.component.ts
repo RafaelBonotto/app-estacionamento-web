@@ -20,7 +20,7 @@ export class LoginComponent {
       // Chamada assíncrona ao serviço usando await com take(1)
       await this.loginService.validateUser(this.email, this.password).pipe(take(1)).toPromise();
 
-      // Usuário autenticado, navegue para a tela de menu
+      // Usuário autenticado, navegue para a tela de menu      
       this.router.navigate(['/menu']);
     } catch (error) {
       // Erro na validação, navegue para a tela de erro
