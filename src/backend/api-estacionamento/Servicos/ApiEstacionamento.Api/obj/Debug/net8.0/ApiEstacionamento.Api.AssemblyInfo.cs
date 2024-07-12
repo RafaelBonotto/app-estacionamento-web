@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEstacionamento.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd2b64d4dd5edab82971d7f01427efb5a4366ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc922f868554ee0ba912ec1be0a73ff2ec12ab68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEstacionamento.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEstacionamento.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

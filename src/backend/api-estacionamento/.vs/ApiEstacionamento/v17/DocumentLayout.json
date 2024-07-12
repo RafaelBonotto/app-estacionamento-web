@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|c:\\users\\rbonotto\\pessoal\\projetos\\git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\servicos\\apiestacionamento.api\\controllers\\v1\\valorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|solutionrelative:servicos\\apiestacionamento.api\\controllers\\v1\\valorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|c:\\users\\rbonotto\\pessoal\\projetos\\git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\servicos\\apiestacionamento.api\\controllers\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|solutionrelative:servicos\\apiestacionamento.api\\controllers\\v1\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|c:\\users\\rbonotto\\pessoal\\projetos\\git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\servicos\\apiestacionamento.api\\controllers\\v1\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|solutionrelative:servicos\\apiestacionamento.api\\controllers\\v1\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|c:\\users\\rbonotto\\pessoal\\projetos\\git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\servicos\\apiestacionamento.api\\controllers\\v1\\valorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|solutionrelative:servicos\\apiestacionamento.api\\controllers\\v1\\valorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D6DD41-7080-4F2B-AA91-A4109873EEDB}|Servicos\\ApiEstacionamento.Api\\ApiEstacionamento.Api.csproj|c:\\users\\rbonotto\\pessoal\\projetos\\git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\servicos\\apiestacionamento.api\\controllers\\v1\\relatoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\UsuarioController.cs",
@@ -115,19 +115,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ValorController.cs",
               "DocumentMoniker": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\ValorController.cs",
               "RelativeDocumentMoniker": "Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\ValorController.cs",
               "ToolTip": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\ValorController.cs",
               "RelativeToolTip": "Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\ValorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T23:08:12.748Z"
+              "WhenOpened": "2024-07-02T23:08:12.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VeiculoController.cs",
               "DocumentMoniker": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\VeiculoController.cs",
               "RelativeDocumentMoniker": "Servicos\\ApiEstacionamento.Api\\Controllers\\V1\\VeiculoController.cs",
@@ -139,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UsuarioInVM.cs",
               "DocumentMoniker": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\ViewModel\\Usuario\\UsuarioInVM.cs",
               "RelativeDocumentMoniker": "Servicos\\ApiEstacionamento.Api\\ViewModel\\Usuario\\UsuarioInVM.cs",
@@ -151,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rbonotto\\Pessoal\\Projetos\\Git\\app-estacionamento-web\\src\\backend\\api-estacionamento\\Servicos\\ApiEstacionamento.Api\\Program.cs",
               "RelativeDocumentMoniker": "Servicos\\ApiEstacionamento.Api\\Program.cs",

@@ -21,7 +21,15 @@ namespace ApiEstacionamento.Api.Controllers.V1
         [HttpGet()]
         public async Task<IActionResult> ValorPrimeiraHoraAsync()
         {
-            return Ok();
+            var response = new List<dynamic>()
+            {
+                new { Periodo = "Primeira Hora", Valor = 15.00 },
+                new { Periodo = "Segunda Hora", Valor = 8.00 },
+                new { Periodo = "Hora Adicional", Valor = 5.00 },
+                new { Periodo = "Diária", Valor = 35.00 },
+                new { Periodo = "Mensal", Valor = 150.00 },
+            };
+            return Ok(response);
         }
     }
 }
