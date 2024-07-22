@@ -1,0 +1,57 @@
+<div class="faixa">
+    <h1 style="color: whitesmoke;">ESTACIONAMENTO WEB </h1>
+</div>
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="col-md-6">
+        <h1 class="h1-principal">E N T R A D A</h1>
+        <form (ngSubmit)="onSubmit()">
+            <div class="form-group mb-3">
+            <label for="data"><b>DATA:</b></label>
+            <input type="date" class="form-control custom-input" id="data" name="data" [(ngModel)]="entradaData.data">
+            </div>
+            <div class="form-group mb-3">
+                <label for="placa"><b>PLACA:</b></label>
+                <input type="text" class="form-control custom-input uppercase-input" id="placa" name="placa" [(ngModel)]="entradaData.placa" (input)="transformToUpper($event)">
+            </div>
+            <div class="form-group mb-3 text-center">
+            <label for="hrs"><b>HORÁRIO DA ENTRADA:</b></label>
+            <div class="d-flex justify-content-center align-items-center">
+                <input type="number" class="form-control me-2 custom-input time-input" id="hrs" name="hrs" [(ngModel)]="entradaData.hrs" placeholder="hrs">
+                <span class="mx-2">:</span>
+                <input type="number" class="form-control ms-2 custom-input time-input" id="min" name="min" [(ngModel)]="entradaData.min" placeholder="min">
+            </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">REGISTRAR</button>
+        </form>
+    </div>    
+  </div>
+
+
+  <footer class="bg-dark text-white mt-5 p-4 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Sobre Nós</h5>
+          <p>Estacionamento com seguro, manobrista e vagas cobertas. Preços promocionais para mensalistas</p>
+      </div>
+        <div class="col-md-4 mb-3">
+          <h5>Links Úteis</h5>
+          <ul class="list-unstyled">
+              <li><a href="#vvdvdv" class="text-white">Home</a></li>
+              <li><a href="#vvvvd" class="text-white">Consulta por placa</a></li>
+          </ul>
+      </div>
+        <div class="col-md-4 mb-3">
+            <h5>Contato</h5>
+            <p>Email: estacionamentoweb&#64;gmail.com</p>
+  
+            <p>Telefone: (11) 2234-5678</p>
+        </div>
+    </div> 
+      <div class="mt-3">
+        <p>&copy; 2024 Estacionamento WEB. Todos os direitos reservados.</p>
+    </div> 
+  </div>
+  </footer>
+  
