@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { LoginService } from '../login.service';
+import { LoginService } from '../services/login.service';
 import { take } from 'rxjs/operators'; // Importe o operador take
 
 @Component({
@@ -18,7 +18,7 @@ export class LoginComponent {
   async onSubmit() {
     try {
       // Chamada assíncrona ao serviço usando await com take(1)
-      await this.loginService.validateUser(this.email, this.password).pipe(take(1)).toPromise();
+      //await this.loginService.validateUser(this.email, this.password).pipe(take(1)).toPromise();
 
       // Usuário autenticado, navegue para a tela de menu      
       this.router.navigate(['/menu']);
