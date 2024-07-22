@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { ErrorComponent } from './error/error.component';
 import { ClienteComponent } from './cliente/cliente.component';
+import { ClienteDetalhesComponent } from './cliente-detalhes/cliente-detalhes.component'; 
+import { EntradaComponent } from './entrada/entrada.component'; 
+import { SaidaComponent } from './saida/saida.component'; 
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ClienteComponent } from './cliente/cliente.component';
     LoginComponent,
     MenuComponent,
     ErrorComponent,
-    ClienteComponent
+    ClienteComponent,
+    ClienteDetalhesComponent,
+    EntradaComponent,
+    SaidaComponent
   ],
   imports: [
     FormsModule,
