@@ -1,0 +1,47 @@
+.custom-input {
+    font-size: 1.2em;
+    height: 3em;
+  }
+  
+  .custom-input[type="date"], .custom-input[type="text"] {
+    width: 100%;
+  }
+  
+  .time-input {
+    width: 70px; /* Ajuste conforme necessário */
+  }
+  
+  .form-group label {
+    font-size: 1.2em;
+  }
+  
+  .btn-block {
+    width: 100%;
+    font-size: 1.2em;
+    height: 3em;
+  }
+
+  .h1-principal {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 95px;
+  }
+
+  .faixa{
+    background-color: black;
+    text-align: center;
+    width: 1380px;
+  }
+
+  .uppercase-input {
+    text-transform: uppercase;
+  }
+
+  .custom-img {
+    height: auto;
+    max-height: 50vh; /* Limitar a altura máxima a 50% da altura da tela */
+    width: 100%;
+    object-fit: cover; /* Isso garante que a imagem se ajuste ao contêiner sem distorção */
+  }
+  
