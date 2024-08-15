@@ -1,12 +1,66 @@
-<ul>
-    <li>
-      <a routerLink="/option1">Opção 1</a>
-    </li>
-    <li>
-      <a routerLink="/option2">Opção 2</a>
-    </li>
-    <li>
-      <a routerLink="/option3">Opção 3</a>
-    </li>
-    <p>Funcionou</p>
-  </ul>
+
+<header class="headerPrincipal">
+  <div class="containerPrincipal">
+      <div class="logoMenuPrincipal"><img src="assets/img/estacionamento-logo-header.jpeg" height="90" width="180"></div>
+      <div class="menuPrincipal">
+          <nav>
+            <a routerLink="/cliente">CLIENTE</a>
+            <a href="#veiculo">VEÍCULO</a>
+            <a href="/entrada">ENTRADA</a>
+            <a href="#saida">SAÍDA</a>                   
+          </nav>
+      </div>
+      <div class="textoUsuario">
+        <p>Usuário: Rafael</p>
+      </div>
+      
+  </div>
+</header>
+
+
+<div class="container mt-5">
+  <h2><b>TABELA DE PREÇOS</b></h2>
+  <table class="table">
+      <thead class="thead-dark">
+          <tr>
+              <th scope="col"><b>Periodo</b></th>
+              <th scope="col"><b>Valor</b></th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dado of precos; let i = index" class="tabela-de-precos">
+            <td>{{ dado.periodo }}</td>
+            <td>R$ {{ dado.valor | number:'1.2-2'}}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
+
+
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5>Sobre Nós</h5>
+        <p>Estacionamento com seguro, manobrista e vagas cobertas. Preços promocionais para mensalistas</p>
+    </div>
+      <div class="col-md-4 mb-3">
+        <h5>Links Úteis</h5>
+        <ul class="list-unstyled">
+            <li><a href="#vvdvdv" class="text-white">Home</a></li>
+            <li><a href="#vvvvd" class="text-white">Consulta por placa</a></li>
+        </ul>
+    </div>
+      <div class="col-md-4 mb-3">
+          <h5>Contato</h5>
+          <p>Email: estacionamentoweb&#64;gmail.com</p>
+
+          <p>Telefone: (11) 2234-5678</p>
+      </div>
+  </div> 
+    <div class="mt-3">
+      <p>&copy; 2024 Estacionamento WEB. Todos os direitos reservados.</p>
+  </div> 
+</div>
+</footer>
